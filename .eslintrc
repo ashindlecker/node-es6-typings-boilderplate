@@ -4,6 +4,10 @@
         "flowtype"
     ],
     "rules": {
+        "indent": [
+            "error",
+            4
+        ],
         "flowtype/boolean-style": [
             2,
             "boolean"
