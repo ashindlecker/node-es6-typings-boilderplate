@@ -6,7 +6,9 @@
   "scripts": {
     "flow": "flow check",
     "build": "babel ./src/ --out-dir ./dist",
+    "build:watch": "babel --watch src/**/*.js -d dist",
     "test": "jest",
+    "test:watch": "jest --watch",
     "lint": "eslint ./",
     "start": "node ./"
   },
